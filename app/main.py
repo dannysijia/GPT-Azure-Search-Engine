@@ -41,7 +41,7 @@ st.header("GPT Smart Search Engine")
 
 sidebar()
 
-index_name = "cogsrch-index"
+index_name = "cogsrch-index-files"
 
 os.environ["AZURE_OPENAI_ENDPOINT"] = st.session_state["AZURE_OPENAI_ENDPOINT "] = AZURE_OPENAI_ENDPOINT
 os.environ["OPENAI_API_KEY"] = os.environ["AZURE_OPENAI_API_KEY"] = st.session_state["AZURE_OPENAI_API_KEY"] = AZURE_OPENAI_KEY
